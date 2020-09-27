@@ -1,9 +1,4 @@
 
-PROMPT='
-%*
-%F{green}[%~]%f
-$ '
-
 # Alias
 alias relogin='exec $SHELL -l'
 
@@ -33,3 +28,7 @@ function peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+# plugin
+## sugestion
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
