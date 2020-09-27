@@ -1,5 +1,6 @@
 
 # Alias
+## 再起動
 alias relogin='exec $SHELL -l'
 
 # シェル関数`compinit`の自動読み込み

@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name  = AibaTaro
+#	email = taroaiba.work@gmail.com
+
+[alias]
+  st = status -sb
+  ch = checkout
+  br = branch
+  bra = branch -a -vv
+  ls = ls-files
+  cm = commit -m
+  sh = stash
+  cp = cherry-pick
+  l = log --graph --date=short --pretty=\"format:%C(yellow)%h %C(cyan)%ad %C(green)%an%Creset%x09%s %C(red)%d%Creset\"
+  la = log --oneline --decorate --graph --branches --tags --remotes
