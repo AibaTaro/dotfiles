@@ -3,6 +3,9 @@
 ## 再起動
 alias relogin='exec $SHELL -l'
 
+## ファイル
+alias ll='ls -l'
+
 # シェル関数`compinit`の自動読み込み
 autoload -Uz compinit && compinit
 
